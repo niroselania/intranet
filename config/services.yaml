@@ -13,16 +13,14 @@
     - Relaxit Local:
         href: http://patagonia.serveftp.com:8001
     - Catalogo:
-        href: http://patagonia.serveftp.com:7000
-    - Compras Empleados:
-        href: http://patagonia.serveftp.com:7070    
+        href: http://patagonia.serveftp.com:7000    
 
 - ADMINISTRACIÓN:
-    - Ejemplo sitio 1:
-        href: http://192.168.1.94:8080
+    - Compras Empleados:
+        href: http://patagonia.serveftp.com:7070
     - Ejemplo sitio 2:
         href: http://192.168.1.94:8081
 
-- DEPÓSITO:
-    - Ejemplo sitio 3:
-        href: http://192.168.1.94:8082
+- MAYORISTA:
+    - Equivalencias:
+        href: http://patagonia.serveftp.com:8030
