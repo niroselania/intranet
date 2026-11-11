@@ -104,8 +104,9 @@ function render(groups) {
           const a = document.createElement('a');
           a.href = cfg.href;
           a.textContent = name;
-          if (cfg.target) a.target = cfg.target;
-          if (cfg.target === '_blank') a.rel = 'noopener';
+          // Por defecto abre en pestaña nueva; con "target: _self" en el yaml abre en la misma
+          a.target = cfg.target || '_blank';
+          if (a.target === '_blank') a.rel = 'noopener';
           box.appendChild(a);
         });
       });

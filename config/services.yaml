@@ -4,23 +4,23 @@
 # - NOMBRE DEL GRUPO:
 #     - Nombre del sitio:
 #         href: http://direccion-del-sitio
-#         target: _blank        # opcional (_self por defecto)
+#         target: _self         # opcional: _blank (nueva pestaña) es el valor por defecto
 #
 # Solo se muestra el nombre. Después de editar este archivo,
 # alcanza con recargar la página (F5). No hay que reiniciar nada.
 
 - LOCAL:
-    - Relaxit Local:
-        href: http://patagonia.serveftp.com:8001/
-    - Catalogo 2026:
-        href: http://patagonia.serveftp.com:7000/
+    - Relaxit:
+        href: https://patagonia.relaxit.com.ar
+    - Pedidos:
+        href: http://192.168.1.94:3000
 
 - ADMINISTRACIÓN:
-    - Compra Empleados:
-        href: http://patagonia.serveftp.com:7070/
-    - Facturas 10.2026:
-        href: https://patagonia.sharepoint.com/:x:/r/sites/msteams_5aa770_887970-FacturasProveedoreseImputaciones/_layouts/15/Doc.aspx?sourcedoc=%7B921F30E7-01B7-4648-A867-3CA906D56F02%7D&file=Facturas%2010.2026-(Imputaciones)_pruebaCT.xlsx&action=default&mobileredirect=true&wdwpf=c   
+    - Ejemplo sitio 1:
+        href: http://192.168.1.94:8080
+    - Ejemplo sitio 2:
+        href: http://192.168.1.94:8081
 
-- MAYORISTA:
-    - Equivalencias:
-        href: http://patagonia.serveftp.com:8030/
+- DEPÓSITO:
+    - Ejemplo sitio 3:
+        href: http://192.168.1.94:8082
