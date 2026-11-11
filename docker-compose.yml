@@ -1,0 +1,10 @@
+services:
+  intranet:
+    build: .
+    container_name: intranet
+    restart: unless-stopped
+    ports:
+      - "8090:80"
+    volumes:
+      # Carpeta editable por vos: services.yaml, settings.yaml y el fondo si es local
+      - ./config:/usr/share/nginx/html/config
