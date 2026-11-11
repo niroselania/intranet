@@ -13,4 +13,4 @@ overlay: 0.35
 font: "'Helvetica Neue', Helvetica, Arial, sans-serif"
 
 # Logo opcional (URL o ruta). Vacío = se muestra el título en texto
-logo: ""
+logo: /config/logo.png
