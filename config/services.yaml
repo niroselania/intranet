@@ -10,10 +10,12 @@
 # alcanza con recargar la página (F5). No hay que reiniciar nada.
 
 - LOCAL:
-    - Relaxit:
-        href: https://patagonia.relaxit.com.ar
-    - Pedidos:
-        href: http://192.168.1.94:3000
+    - Relaxit Local:
+        href: https://patagonia.serveftp.com:8001
+    - Catalogo:
+        href: https://patagonia.serveftp.com:7000
+    - Compras Empleados:
+        href: https://patagonia.serveftp.com:7070    
 
 - ADMINISTRACIÓN:
     - Ejemplo sitio 1:
