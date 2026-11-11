@@ -19,6 +19,6 @@
     - Compra Empleados:
         href: http://patagonia.serveftp.com:7070/
 
-- DEPÓSITO:
-    - Ejemplo sitio 3:
-        href: http://192.168.1.94:8082
+- MAYORISTA:
+    - Equivalencias:
+        href: http://patagonia.serveftp.com:8030/
